@@ -31,8 +31,8 @@ function App() {
         setTechnologies(data)
       } catch (err) {
         console.error(err)
-        setError('Failed to load technologies. Please try again.')
-        toast.error('Could not load technologies data')
+        setError('oww! Failed to load technologies. Please try again.')
+        toast.error('so sorry, Could not load technologies data')
       } finally {
         setLoading(false)
       }
