@@ -112,4 +112,4 @@ Data flows down via props: the parent passes data as an attribute, e.g. <Child d
 Data flows up via callback props: the parent passes a function as a prop, e.g. <Child onSelect={(id) => {setSelectedId(id)} />. The child calls that function (usually on an event) with whatever value it wants to send: onClick={() => onSelect(42)}. This updates the parent's state, since the function it passed down was really just a wrapper around setState.
 This pattern — parent owns the state, child triggers changes via a callback — is called "lifting state up," and it's how React maintains one-directional data flow while still allowing child-to-parent communication.
 
-[Answeres is writen by my own words with the help of calud.]
+[Answeres is writen by my own words with the help of claud.]
