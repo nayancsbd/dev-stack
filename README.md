@@ -1,16 +1,87 @@
-# React + Vite
+# Dev Stack Tech Expo
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<div align="center">
+  <img src="https://img.shields.io/badge/React-19.2.8-61DAFB?style=for-the-badge&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-6.0.2-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-8.3.0-646CFF?style=for-the-badge&logo=vite" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind-4.3.3-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
+</div>
 
-Currently, two official plugins are available:
+A modern and interactive platform for discovering, comparing, and selecting the best developer tools for your next project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+Dev Stack Tech Expo is a sleek technology explorer built for developers who want to browse popular stacks, compare categories, and curate a personalized tech setup. The experience combines a clean landing page, interactive technology cards, and a dynamic stack sidebar for quick planning.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Toastify
+- Lucide React 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Key Features
+
+### 1. Smart technology exploration
+Browse a curated collection of tools and technologies across different categories, making it easy to discover the right options for your workflow.
+
+### 2. Personalized stack building
+Add technologies to your custom stack and remove them anytime to create a setup that matches your project goals.
+
+### 3. Responsive, modern UI
+Enjoy a polished, mobile-friendly interface with smooth interactions, clean typography, and an intuitive layout designed for developers.
+
+## Project Highlights
+
+- Interactive technology cards
+- Category-based stack selection
+- Toast notifications for actions
+- Clean responsive layout for desktop and mobile
+- Authentication modal UI for sign-in and sign-up flows
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+```bash
+npm install
+```
+
+### Run the app
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```text
+src/
+  components/
+  types/
+  App.tsx
+  main.tsx
+public/
+  technologies.json
+```
+
+## License
+
+This project is open for evaluating and assignment purpose.
+
+## Author
+
+Built with passion for developers and exploring mindset. Modern web experiences was used here like Lucide React which is very interesting to add icons. 
